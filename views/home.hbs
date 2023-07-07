@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>THE CAFE</title>
+    {{>headlinks}}
+</head>
+
+<body>
+    <!-- Links (sit on top) -->
+    {{>nav}}
+
+    <!-- Header with image -->
+    {{>header}}
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+        <!-- About Container -->
+        {{>about}}
+
+        <!-- Menu Container -->
+        {{>foodMenu}}
+
+        <!-- Contact/Area Container -->
+        {{>area}}
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    {{>footer}}
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

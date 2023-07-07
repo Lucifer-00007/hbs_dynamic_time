@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+
+.menu {
+    display: none;
+}
+
+/* footer menu */
+.footer {
+    width: 100%;
+    height: 5rem;
+    background-color: #e8e8e8 !important;
+    padding-top: 1px !important;
+    margin-top: auto;
+}
+
+
+.footer p {
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+
+.nav {
+    background-color: #030828 !important;
+    color: #fff;
+}
+
+.w3-col.s2 {
+    width: 20%;
+}
+
+.w3-badge,
+.w3-tag {
+    background-color: #030828;
+}
